@@ -11,7 +11,7 @@ const state = {
       header: "Tiltzin",
       image: "/project-2.png",
       aspect: 1.5,
-      text: "https://www.youtube.com/",
+      text: "<a>https://www.youtube.com/</a>",
     },
     {
       offset: 3,

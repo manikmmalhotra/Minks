@@ -31,18 +31,23 @@ function Content() {
           </Text>
         </Block>
         <Block factor={1.0}>
-          <Dom position={[-w / 4.5, -w * 0.08 + 0.25, -1]}>
-            FULL STACK DEVELOPER{mobile ? <br /> : " "}PORTFOLIO
+          <Dom position={[-w / 2, -w * 0.08 + 0.25, -1]}>
+            FULL STACK DEVELOPER
           </Dom>
         </Block>
       </Block>
       <Block factor={1.75} offset={0.75}>
-        <Dom>hello color="#2fe8c3"</Dom>
+        <Text right size={w * 0.08} position={[w / 2, 0, -1]} color="#d40749">
+          About
+        </Text>
+        {/* <div>heyoo im html</div> */}
         <Dom
           className="bottom-left"
           position={[-canvasWidth / 2, -canvasHeight / 2, 0]}
         >
-          Hay que realizar todos tus sueños.
+          Hay que realizar todos tus sueñosHay que realizar todos tus sueñosHay
+          que realizar todos tus sueñosHay que realizar todos tus sueñosHay que
+          realizar todos tus sueño
         </Dom>
       </Block>
       <Block factor={1.4} offset={7}>
